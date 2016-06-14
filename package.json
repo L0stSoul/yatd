@@ -1,0 +1,19 @@
+{
+  "name": "yatd",
+  "version": "0.1.0",
+  "description": "Yet another Throttle & Debounce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.yandex-team.ru:lostsoul/yatd.git"
+  },
+  "keywords": [
+    "Throttle",
+    "Debounce"
+  ],
+  "author": "Denis Payas",
+  "license": "ISC"
+}
