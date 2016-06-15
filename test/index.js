@@ -113,6 +113,15 @@ describe('Throttle', function() {
         assert.isOk(callback.called);
     });
 
+    it('should return true if callback was called', function() {
+        assert.isTrue(throttled());
+    });
+
+    it('shouldreturn false if callback was skipped', function() {
+        throttled();
+        assert.isFalse(throttled());
+    });
+
     it('should skip second callback call if called two times within delay interval', function() {
         throttled(ARG1);
         clock.tick(DELAY - 1);

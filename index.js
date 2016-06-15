@@ -20,12 +20,14 @@ module.exports = {
         var isWaiting = false;
 
         return function() {
-            if(isWaiting) return;
+            if(isWaiting) return false;
 
             callback.apply(this, arguments);
 
             isWaiting = true;
             setTimeout(function() { isWaiting = false; }, delay);
+
+            return true;
         };
     }
 };
