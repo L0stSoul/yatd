@@ -15,5 +15,10 @@
     "Debounce"
   ],
   "author": "Denis Payas",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "~2.5.3",
+    "chai": "~3.5.0",
+    "sinon": "~1.17.4"
+  }
 }
