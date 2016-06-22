@@ -1,3 +1,3 @@
-=Yet Another Throttle and Debounce
+#Yet Another Throttle and Debounce
 
 
